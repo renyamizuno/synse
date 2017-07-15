@@ -2,7 +2,7 @@
   "name": "synse",
   "version": "0.0.1",
   "description": "synse is Web Audio API wrapper for the synthesizer.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "author": "merotan <renyamizuno+js@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -12,5 +12,17 @@
   "bugs": {
     "url": "https://github.com/renyamizuno/synse/issues"
   },
-  "homepage": "https://github.com/renyamizuno/synse#readme"
+  "homepage": "https://github.com/renyamizuno/synse#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.3.0",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.2.0",
+    "eslint-config-eslint": "^4.0.0"
+  },
+  "scripts": {
+    "eslint": "eslint 'lib/**/*.js'"
+  }
 }
