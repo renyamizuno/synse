@@ -11,6 +11,7 @@
     "indent": ["error", 2],
     "class-methods-use-this": 0,
     "require-jsdoc": ["error", { "require": { "FunctionDeclaration": false } }],
-    "no-underscore-dangle": ["error", { "allow": ["__synse_audio_context__"] } ]
+    "no-underscore-dangle": ["error", { "allow": ["__synse_audio_context__"] } ],
+    "func-style": ["error", "declaration", { "allowArrowFunctions": true }]
   }
 }
