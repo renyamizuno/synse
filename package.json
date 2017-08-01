@@ -1,6 +1,6 @@
 {
   "name": "synse",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "synse is Web Audio API wrapper for the synthesizer.",
   "main": "dist/index.js",
   "author": "merotan <renyamizuno+js@gmail.com>",
